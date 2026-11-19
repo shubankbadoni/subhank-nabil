@@ -1,0 +1,33 @@
+{
+  "traffic_light_id": "YOUR_TLS_ID",
+  "initial_phase": "NS",
+  "simulation_step_seconds": 1.0,
+  "decision_interval_seconds": 1.0,
+  "min_green_seconds": 10,
+  "max_green_seconds": 60,
+  "yellow_seconds": 3,
+  "all_red_seconds": 1,
+  "switching_margin": 0.05,
+  "reference_queue": 50,
+  "reference_wait_seconds": 120,
+  "reference_no_service_seconds": 90,
+  "all_red_state": "REPLACE_WITH_ALL_RED_STATE",
+  "phases": {
+    "NS": {
+      "lanes": [
+        "REPLACE_WITH_NORTH_INBOUND_LANE",
+        "REPLACE_WITH_SOUTH_INBOUND_LANE"
+      ],
+      "green_state": "REPLACE_WITH_NS_GREEN_STATE",
+      "yellow_state": "REPLACE_WITH_NS_YELLOW_STATE"
+    },
+    "EW": {
+      "lanes": [
+        "REPLACE_WITH_EAST_INBOUND_LANE",
+        "REPLACE_WITH_WEST_INBOUND_LANE"
+      ],
+      "green_state": "REPLACE_WITH_EW_GREEN_STATE",
+      "yellow_state": "REPLACE_WITH_EW_YELLOW_STATE"
+    }
+  }
+}
